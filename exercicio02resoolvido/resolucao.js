@@ -12,25 +12,27 @@ const nota2 = 30
 const nota3 = 40
 const dividi = 3
 const soma2 = nota1 + nota2 + nota3 
-const divisa = soma2/dividi 
-console.log(divisa)
+const dividir = soma2/dividi 
+console.log(dividir)
+//ou const media = (nota1 + nota2 + nota3) /3
 
 //questão numero 3:
 
-const c = 30
-const f = c * 9/5 + 32
-console.log(f)
+const tempc = 30
+const tempf = tempc * 9/5 + 32
+console.log(tempf)
 
 //questão numero 4:
 
 const base = 4
 const altura = 4
-const area = 4 * 4
+const area = (base * altura)
+console.log(area)
 
 //questão numero 5:
 
-const nomeUsuario = 'danielle '
-const sobreNome =  'padilha'
+const nomeUsuario = 'Danielle '
+const sobreNome =  'Padilha'
 const nomeCompleto = nomeUsuario + sobreNome
 console.log(nomeCompleto)
 
@@ -40,4 +42,5 @@ const numero4 = '50'
 const numero5 = '27'
 const numeroExato = numero4 + numero5
 console.log(numeroExato) //para o numero ser somado é necessario que ele seja um number, no caso, nesta forma ele é um string e para transformar em number é necessario usar esse metodo: Number(nome da variavel).
-console.log(area)
+
+console.log(Number(numero4) + Number(numero5))
