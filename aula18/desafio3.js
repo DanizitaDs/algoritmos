@@ -1,7 +1,5 @@
-// a)
+// Atividade 3:
 const carrinho = [];
-
-// b)
 
 const frutaB = {
     nome: 'banana',
@@ -16,15 +14,17 @@ const frutaMa ={
     disponibilidade: true
 }
 
-//c)
-
 function puchar(fruta1,fruta2,fruta3){
     carrinho.push(fruta1,)
     carrinho.push(fruta2)
     carrinho.push(fruta3)
 }
 
-// D)
-
 puchar(frutaB,frutaM,frutaMa)
+console.log(carrinho)
+
+function fruta(disponivel){
+    disponivel.disponibilidade = !disponivel.disponibilidade 
+}
+fruta(frutaB)
 console.log(carrinho)
