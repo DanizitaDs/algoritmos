@@ -45,3 +45,5 @@ function missoes (ninja){
     console.log(`${ninja} aumentou  ${ninja.chakra}`)
 }
 missoes(personagemPessoal)
+
+let aumentarChakra = Math.floor(Math.random() * 11) + 5
